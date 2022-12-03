@@ -1,6 +1,6 @@
 def part1(input_file):
-    #A for Rock, B for Paper, and C for Scissors
-    #X for Rock, Y for Paper, and Z for Scissors
+    # A for Rock, B for Paper, and C for Scissors
+    # X for Rock, Y for Paper, and Z for Scissors
     with open(input_file) as f:
         lines = f.readlines()
     points = 0
@@ -27,9 +27,10 @@ def part1(input_file):
                 points = points + 3
     return points
 
+
 def part2(input_file):
-    #A for Rock, B for Paper, and C for Scissors
-    #X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win.
+    # A for Rock, B for Paper, and C for Scissors
+    # X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win.
     with open(input_file) as f:
         lines = f.readlines()
     points = 0
@@ -60,6 +61,3 @@ def part2(input_file):
             elif opponent_shape == 'C':
                 points = points + 1
     return points
-
-print(part1('day2_input.txt'))
-print(part2('day2_input.txt'))
