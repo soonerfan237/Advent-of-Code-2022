@@ -1,6 +1,7 @@
 import day1
 import day2
 import day3
+import day4
 
 print("DAY 1")
 print("PART 1: " + str(day1.part1('day1_input.txt')))
@@ -15,4 +16,9 @@ print("============")
 print("DAY 3")
 print("PART 1: " + str(day3.part1('day3_input.txt')))
 print("PART 2: " + str(day3.part2('day3_input.txt')))
+print("============")
+
+print("DAY 4")
+print("PART 1: " + str(day4.part1('day4_input.txt')))
+print("PART 2: " + str(day4.part2('day4_input.txt')))
 print("============")
